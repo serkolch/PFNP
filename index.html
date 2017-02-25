@@ -348,7 +348,7 @@ html, body {
     <div class="one column row">
         <div class="column" style="font-size:16px;text-align: center;">
             <div class="description">
-                <span>Built by your boy</span>
+                <span>Built by </span>
                 <strong>
                     <a href="https://twitter.com/the_taqquikarim" target="_blank">Taq Karim</a>
                 </strong>
@@ -405,6 +405,7 @@ html, body {
             [].slice.call( all ).forEach(function(el) {
                 hljs.highlightBlock( el );
             });
+            window.scrollTo(0,0);
         }
 
         getJSON().then(function(data) {
